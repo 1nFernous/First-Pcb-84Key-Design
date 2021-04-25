@@ -91,10 +91,6 @@ F 3 "" H 8800 3500 50  0001 C CNN
 	1    8800 3500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7650 3500 7850 3500
-Wire Wire Line
-	8400 3500 8450 3500
 $Comp
 L Device:R_Small R2
 U 1 1 608586D5
@@ -598,12 +594,12 @@ Text GLabel 7650 1800 2    50   Input ~ 0
 COL1
 Text GLabel 7650 1900 2    50   Input ~ 0
 COL0
-Wire Wire Line
-	8150 3500 8200 3500
-Wire Wire Line
-	8550 3500 8800 3500
 Text GLabel 7650 2000 2    50   Input ~ 0
 ROW1
 Text GLabel 7650 3300 2    50   Input ~ 0
 ROW0
+Wire Wire Line
+	7650 3500 8200 3500
+Wire Wire Line
+	8400 3500 8800 3500
 $EndSCHEMATC
